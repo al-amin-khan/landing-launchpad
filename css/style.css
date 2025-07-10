@@ -1,3 +1,9 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 button {
     cursor: pointer;
     border: none;
@@ -24,6 +30,13 @@ button:hover {
 }
 .text-white {
     color: #ffffff;
+}
+
+.text-hero {
+    color: #252432;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.2;
 }
 
 .font-inter {
@@ -57,3 +70,22 @@ button:hover {
     align-items: center;
     padding: 16px 0px;
 }
+
+.banner {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.banner-content {
+    display: block;
+}
+
+.banner-content p {
+    margin-bottom: 45px;
+}
+
