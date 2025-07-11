@@ -39,12 +39,21 @@ button:hover {
     background-color: #e5e7ff;
 }
 
+.bg-white {
+    background-color: #ffffff;
+}
+
 .text-primary {
     color: #4e47ff;
 }
 
 .text-white {
     color: #ffffff;
+}
+
+.text-center {
+    text-align: center;
+    margin: 0 auto;
 }
 
 .text-hero {
@@ -241,4 +250,30 @@ button:hover {
     opacity: 0.5;
 }
 
+.focus-section {
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 30px;
+    /* border: 10px solid tomato;  */
+}
 
+.focus-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #252432;
+    padding: 20px 0 20px 0;
+}
+
+.focus-text {
+    padding-bottom: 15px;
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+.focus-image {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin: 25px 0;
+}
