@@ -123,8 +123,9 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
+    margin:  0 auto;
+    gap: 200px;
+    width: 85%;
 }
 
 .action-title{
@@ -135,18 +136,20 @@ button:hover {
 
 }
 
-.action-content {
+.action-text {
     font-size: 16px;
     font-weight: 500;
     color: #252432;
-    opacity: 0.5;
-    padding-bottom: 15px;
-    line-height: 1.5;
+    margin-bottom: 10px;
 }
+
+
 
 .action-section img {
     height: 300px;
     border-radius: 50px;
+    margin-right: 100px;
+    margin-left: 50px;
 }
 
 .user-stats {
