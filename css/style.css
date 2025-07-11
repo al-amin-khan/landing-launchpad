@@ -56,6 +56,11 @@ button:hover {
     margin: 0 auto;
 }
 
+.text-secondary {
+    color: #252432;
+    opacity: 0.7;
+}
+
 .text-hero {
     color: #252432;
     font-size: 64px;
@@ -322,4 +327,39 @@ button:hover {
 button[type="submit"] {
     margin: 5px 0;
     width: 100%;
+}
+
+
+.footer-container {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0 20px 0;
+}
+
+.footer-logo {
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.action-content {
+    text-align: center;
+    padding: 0px 0;
+    margin-bottom: 0;
 }
